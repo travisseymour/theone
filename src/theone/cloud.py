@@ -1,5 +1,3 @@
-"""The digital rain simulation: a faithful port of neo's Cloud and Droplet classes."""
-
 from __future__ import annotations
 
 import enum
@@ -10,6 +8,11 @@ import time
 from theone import NeoError
 from theone.colors import PALETTES, Color, ColorContent, ColorMode, ColorState
 from theone.terminal import BLANK, Screen
+
+"""
+The digital rain simulation: a faithful port of neo's Cloud and Droplet classes.
+"""
+
 
 NONE = -1  # "unset" line marker (neo uses 0xFFFF)
 CHAR_POOL_SIZE = 2048

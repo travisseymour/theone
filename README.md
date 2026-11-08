@@ -5,6 +5,8 @@ from "The Matrix" in your terminal. It has the same behaviour, options, key bind
 colour palettes and colour-file format as the original C++ neo. It also adds one
 feature of its own: a date and time display (see below).
 
+**Why the port?** I wanted to be able to install it using `uv tool install`, and I wanted the date/time displayed.
+
 >WARNING: neo may cause discomfort and seizures in people with photosensitive epilepsy.
 
 ## Install

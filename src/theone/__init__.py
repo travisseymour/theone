@@ -1,6 +1,11 @@
-"""theone - a Python port of neo, the digital rain from "The Matrix"."""
+from importlib.metadata import version
 
-__version__ = "0.6.1"
+"""
+theone - a Python port of neo, the digital rain from "The Matrix".
+"""
+
+
+__version__ = version("theone")
 
 
 class NeoError(Exception):

@@ -1,5 +1,3 @@
-"""Command-line interface (cyclopts) and the main loop."""
-
 from __future__ import annotations
 
 import locale
@@ -25,6 +23,9 @@ from theone.terminal import (
     Screen,
     Terminal,
 )
+
+"""Command-line interface (cyclopts) and the main loop."""
+
 
 ColorName = Literal[
     "green", "green2", "green3", "yellow", "orange", "red", "blue", "cyan", "gold",

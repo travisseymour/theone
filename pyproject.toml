@@ -1,6 +1,6 @@
 [project]
 name = "theone"
-version = "2026.11.7.2"
+version = "2026.11.7.3"
 description = "A Python port of neo: the digital rain from \"The Matrix\" in your terminal"
 readme = "README.md"
 license = "GPL-3.0-or-later"

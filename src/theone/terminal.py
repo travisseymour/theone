@@ -1,6 +1,3 @@
-"""Minimal, fast terminal layer: a double-buffered screen that only emits changed cells,
-plus raw keyboard input. Replaces the subset of ncurses that neo uses."""
-
 from __future__ import annotations
 
 import os
@@ -13,6 +10,11 @@ from collections import deque
 from collections.abc import Callable
 
 from theone import NeoError
+
+"""
+Minimal, fast terminal layer: a double-buffered screen that only emits changed cells,
+plus raw keyboard input. Replaces the subset of ncurses that neo uses."""
+
 
 BLANK = -1  # style of an erased cell (background colour only)
 CLOCK = -2  # style of the date/time overlay (fixed, independent of the rain palette)
