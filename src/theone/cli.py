@@ -132,7 +132,7 @@ def neo(
     defaultbg: Annotated[bool, Parameter(name=["--defaultbg", "-D"])] = False,
     density: Annotated[float, Parameter(name=["--density", "-d"])] = 1.0,
     fullwidth: Annotated[bool, Parameter(name=["--fullwidth", "-F"])] = False,
-    fps: Annotated[float, Parameter(name=["--fps", "-f"])] = 60.0,
+    fps: Annotated[float, Parameter(name=["--fps", "-f"])] = 15.0,
     glitchpct: Annotated[float, Parameter(name=["--glitchpct", "-G"])] = 10.0,
     glitchms: Annotated[str, Parameter(name=["--glitchms", "-g"])] = "300,400",
     lingerms: Annotated[str, Parameter(name=["--lingerms", "-l"])] = "1,3000",
