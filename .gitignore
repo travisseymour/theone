@@ -1,0 +1,43 @@
+# Upstream C++ neo clone (reference only; it has its own git repo)
+/neo/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (uv creates .venv)
+.venv/
+venv/
+env/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Tool caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+
+# neo --profile output
+time_profile.txt
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Dropbox metadata
+.dropbox
+.dropbox.attr
+*conflicted copy*
